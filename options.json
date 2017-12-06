@@ -1,19 +1,19 @@
 {
   "open": "{{",
   "close": "}}",
-  "name": "Dogeparty Wallet",
-  "xcp": "XDP",
-  "xcp_name": "Dogeparty",
-  "btc": "DOGE",
-  "btc_name": "Dogecoin",
+  "name": "Negotium Wallet",
+  "xcp": "NGM",
+  "xcp_name": "Negotium",
+  "btc": "XTO",
+  "btc_name": "Tao",
   "xcp_store_url": "",
   "max_burn_per_address": 5000000,
-  "homepage": "http://dogeparty.io",
+  "homepage": "http://negotium.io",
   "livenet": {
     "burning": false
   },
   "testnet": {
-    "url": "http://testnet.wallet.dogeparty.io/",
+    "url": "http://testnet.wallet.negotium.io/",
     "faucet_url": "",
     "burning": {
       "start": 124678,

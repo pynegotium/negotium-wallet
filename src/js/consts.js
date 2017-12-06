@@ -172,8 +172,8 @@ var BET_MATCHES_STATUS = {
 
 var LEVERAGE_UNIT = 5040;
 
-var MAINNET_UNSPENDABLE = 'DDogepartyxxxxxxxxxxxxxxxxxxw1dfzr';
-var TESTNET_UNSPENDABLE = 'ndogepartyxxxxxxxxxxxxxxxxxxwpsZCH';
+var MAINNET_UNSPENDABLE = 'DNegotiumxxxxxxxxxxxxxxxxxxw1dfzr';
+var TESTNET_UNSPENDABLE = 'nnegotiumxxxxxxxxxxxxxxxxxxwpsZCH';
 var MAINNET_DONATION = 'DLtFm7fnuVFHRWcUTsikccLnTyduWntHdF';
 var TESTNET_DONATION = 'xnV9kfQFxzPvSYoSuZVqRJduLxdhyziFKiZ';
 
@@ -223,7 +223,7 @@ location.hash = '';
 var ORIG_REFERER = document.referrer;
 
 //CONSTANTS THAT DEPEND ON IS_DEV / USE_TESTNET
-var BLOCKEXPLORER_URL = USE_TESTNET ? "http://test.dogepartychain.info" : "http://dogepartychain.info";
+var BLOCKEXPLORER_URL = USE_TESTNET ? "http://test.negotiumchain.info" : "http://negotiumchain.info";
 var GOOGLE_ANALYTICS_UAID = null; //will be set in counterwallet.js
 var ROLLBAR_ACCESS_TOKEN = null; //will be set in counterwallet.js
 
